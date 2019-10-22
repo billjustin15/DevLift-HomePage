@@ -1,0 +1,447 @@
+body {
+  font-family: Raleway;
+  font-size: 16px;
+}
+
+.main-header {
+  background: url(../img/header1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-header .container {
+  margin-top: 15%;
+  text-align: center;
+  color: white;
+}
+
+.main-header .container h1.heading {
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+.main-header .container h1.heading span {
+  color: #ce3bff;
+}
+
+.main-header .container p.h1-subline {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #d1d7e0;
+  text-transform: uppercase;
+}
+
+section#about {
+  background: white;
+}
+
+section#about .container {
+  padding-top: 80px;
+}
+
+section#about .container h3.heading {
+  margin: 0 auto;
+  font-weight: bolder;
+  font-family: Montserrat !important;
+  color: #545454;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+}
+
+section#about .container h3.heading:before, section#about .container h3.heading:after {
+  content: '';
+  border-top: 7px solid #e1e6ed;
+  margin: 0 20px 0 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 20px;
+          flex: 1 0 20px;
+}
+
+section#about .container h3.heading:after {
+  margin: 0 0 0 20px;
+}
+
+section#about .container p.subline {
+  color: gray;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section#about .container p.subline span {
+  color: #802bb1;
+}
+
+section#about .container .card {
+  background: transparent;
+  color: #545454;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding: 10px;
+}
+
+section#about .container .card i {
+  margin-top: 80% !important;
+  margin-right: -10px;
+  border-radius: 50%;
+  color: white;
+  background: #802bb1;
+  padding: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+section#about .container .card p.heading {
+  font-weight: bold !important;
+  font-size: 18px !important;
+  margin-bottom: 20px !important;
+}
+
+section#about .container .card p.description {
+  font-size: 16px !important;
+}
+
+section#aboutDivider {
+  background: url(../img/vision.jpg);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+
+section#aboutDivider .container {
+  text-align: center;
+  color: white;
+}
+
+section#aboutDivider .container h2.heading {
+  padding-top: 80px !important;
+  font-weight: bolder;
+  display: inline-block;
+  border-bottom: 5px solid white;
+  padding-bottom: 5px;
+}
+
+section#aboutDivider .container h2.heading span {
+  color: #802bb1;
+}
+
+section#aboutDivider .container p.h3-subline {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #d1d7e0;
+}
+
+section#ourteam {
+  padding-bottom: 80px;
+}
+
+section#ourteam h3.heading {
+  padding-top: 130px;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-family: Montserrat !important;
+  color: #545454;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+}
+
+section#ourteam h3.heading:before, section#ourteam h3.heading:after {
+  content: '';
+  border-top: 7px solid #e1e6ed;
+  margin: 0 20px 0 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 20px;
+          flex: 1 0 20px;
+}
+
+section#ourteam h3.heading:after {
+  margin: 0 0 0 20px;
+}
+
+section#ourteam p.subline {
+  color: gray;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section#ourteam p.subline span {
+  color: #ce3bff;
+}
+
+section#ourteam .card {
+  padding-top: 80px;
+}
+
+section#ourteam .card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+section#ourteam .card p.name {
+  font-family: Montserrat !important;
+  color: #545454;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+section#ourteam .card p.title {
+  margin-top: -15px;
+  color: #757575;
+  font-size: 16px;
+}
+
+section#funfacts {
+  background: url(../img/fun-facs.jpg);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  padding-bottom: 60px;
+}
+
+section#funfacts h2.heading {
+  padding-top: 80px !important;
+  font-weight: bolder;
+  display: inline-block;
+  border-bottom: 5px solid white;
+  padding-bottom: 5px;
+  color: white;
+}
+
+section#funfacts p.h3-subline {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #d1d7e0;
+}
+
+section#funfacts p.h3-subline span {
+  color: #ce3bff;
+}
+
+section#funfacts .card {
+  padding: 10px;
+  background: rgba(209, 215, 224, 0.2);
+}
+
+section#funfacts .card p.number {
+  margin-top: 5px;
+  color: #ce3bff;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+section#funfacts .card p.title {
+  margin-top: -50px;
+  color: white;
+}
+
+section#services {
+  background: url(../img/services.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  padding-bottom: 60px;
+}
+
+section#services h2.heading {
+  padding-top: 80px !important;
+  font-weight: bolder;
+  display: inline-block;
+  border-bottom: 5px solid white;
+  padding-bottom: 5px;
+  color: white;
+}
+
+section#services p.h3-subline {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #d1d7e0;
+}
+
+section#services p.h3-subline span {
+  color: #ce3bff;
+}
+
+section#services .card {
+  height: 180px !important;
+}
+
+section#services .card .card-image i {
+  font-size: 80px;
+  padding-top: 30%;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  color: white;
+}
+
+section#services .card span.title {
+  color: #ce3bff;
+  font-weight: bolder !important;
+  font-size: 17px;
+}
+
+section#services .card p.description {
+  padding-top: 20px;
+  font-size: 15px;
+  color: white;
+}
+
+section#testimonials {
+  background: white;
+}
+
+section#testimonials h3.heading {
+  padding-top: 130px;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-family: Montserrat !important;
+  color: #545454;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+}
+
+section#testimonials h3.heading:before, section#testimonials h3.heading:after {
+  content: '';
+  border-top: 7px solid #e1e6ed;
+  margin: 0 20px 0 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 20px;
+          flex: 1 0 20px;
+}
+
+section#testimonials h3.heading:after {
+  margin: 0 0 0 20px;
+}
+
+section#testimonials p.subline {
+  color: gray;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section#testimonials p.subline span {
+  color: #ce3bff;
+}
+
+section#testimonials .card img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+section#testimonials .card p {
+  color: #545454;
+}
+
+section#contact {
+  background: url(../img/connect.jpg);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  padding-bottom: 60px;
+}
+
+section#contact h2.heading {
+  padding-top: 80px !important;
+  font-weight: bolder;
+  display: inline-block;
+  border-bottom: 5px solid white;
+  padding-bottom: 5px;
+  color: white;
+}
+
+section#contact p.h3-subline {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #d1d7e0;
+}
+
+section#contact p.h3-subline span {
+  color: #ce3bff;
+}
+
+section#contact .col {
+  color: white;
+}
+
+section#contact .col i {
+  font-size: 50px;
+  padding: 20px;
+  background: rgba(128, 128, 128, 0.2);
+  border-radius: 50%;
+}
+
+section#contact .col span.media {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ce3bff;
+  font-weight: bold !important;
+}
+
+section#contact .col p {
+  margin-top: -5px;
+  font-size: 16px;
+}
+
+hr {
+  margin-top: -20px;
+  border: 4px solid white;
+  width: 80%;
+}
+
+button.message {
+  margin-top: 40px;
+  display: inline-block;
+  border: 0;
+  color: white;
+  font-family: Montserrat;
+  border-bottom: 2px solid white;
+  padding-bottom: 8px;
+  border-top: 2px solid white;
+  padding-top: 8px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+button.message:hover {
+  color: #ce3bff;
+  font-weight: bold;
+  background: white !important;
+}
+/*# sourceMappingURL=main.css.map */
